@@ -1,9 +1,10 @@
 package classe;
 
+import java.util.Objects;
+
 public class Usuario {
 	String nome;
 	String email;
-	
 	@Override
 	public boolean equals(Object obj) {
 		// TODO Auto-generated method stub
@@ -20,4 +21,12 @@ public class Usuario {
 		//O hashcode será abordado em outra aula
 	
 	}
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
 }
