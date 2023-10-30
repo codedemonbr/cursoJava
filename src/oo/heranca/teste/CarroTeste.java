@@ -13,8 +13,20 @@ public class CarroTeste {
         // System.out.println(civic.velocidadeAtual);
         System.out.println(civic);
 
-        Carro ferrari = new Ferrari(400);
+        Ferrari ferrari = new Ferrari(400);
         ferrari.acelerar();
+        System.out.println(ferrari);
+
+        ferrari.acelerar();
+
+        System.out.println(ferrari);
+
+        System.out.println("ligar turbo");
+        ferrari.ligarTurbo();
+        ferrari.acelerar();
+        ferrari.desligarTurbo();
+
+        System.out.println(ferrari);
 
         ferrari.frear();
 
