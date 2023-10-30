@@ -8,8 +8,8 @@ import java.util.TreeSet;
 public class ConjuntoComportado {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-//		Set<String> listaAprovados = new HashSet<String>();
+
+		// Set<String> listaAprovados = new HashSet<String>();
 		SortedSet<String> listaAprovados = new TreeSet<String>();
 		listaAprovados.add("Ana");
 		listaAprovados.add("Pedro");

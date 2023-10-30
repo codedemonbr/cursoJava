@@ -3,7 +3,7 @@ package metodosClassses;
 public class ValorNulo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		String s1 = "";
 		System.out.println(s1.concat("!!!"));
 
@@ -16,8 +16,8 @@ public class ValorNulo {
 		}
 
 		String s2 = Math.random() > 0.5 ? "Opa" : null;
-		
-		if(s2 != null) {
+
+		if (s2 != null) {
 			System.out.println(s2.concat("???"));
 		}
 	}

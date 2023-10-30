@@ -6,7 +6,7 @@ import java.util.List;
 public class Lista {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		List<Usuario> lista = new ArrayList<>();
 
 		Usuario u1 = new Usuario("Ana");
@@ -24,7 +24,7 @@ public class Lista {
 		System.out.println(lista.remove(new Usuario("Manu")));
 		System.out.println("Tem? " + lista.contains(new Usuario("Lia")));
 		System.out.println("Tem? " + lista.contains(u1));
-		
+
 		for (Usuario usuario : lista) {
 			System.out.println(usuario);
 		}

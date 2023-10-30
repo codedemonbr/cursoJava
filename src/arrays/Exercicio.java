@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Exercicio {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		double[] notasAlunoA = new double[3];
 
 		System.out.println(Arrays.toString(notasAlunoA));

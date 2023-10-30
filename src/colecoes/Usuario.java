@@ -12,7 +12,7 @@ public class Usuario {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
+
 		return "Meu nome é " + this.nome;
 	}
 

@@ -3,7 +3,7 @@ package oo.composicao;
 public class CursoTeste {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Aluno aluno1 = new Aluno("João");
 		Aluno aluno2 = new Aluno("Maria");
 		Aluno aluno3 = new Aluno("Pedro");

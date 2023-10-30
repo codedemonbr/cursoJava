@@ -5,10 +5,9 @@ import java.util.Set;
 
 public class ConjuntoBaguncado {
 
-	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		HashSet conjunto = new HashSet();
 
 		conjunto.add(1.2);
@@ -40,15 +39,13 @@ public class ConjuntoBaguncado {
 		nums.add(3);
 		System.out.println(nums);
 		System.out.println(conjunto);
-		
-		
-//		conjunto.addAll(nums);
-//		conjunto.retainAll(nums);
-		
+
+		// conjunto.addAll(nums);
+		// conjunto.retainAll(nums);
+
 		conjunto.clear();
-		
+
 		System.out.println(conjunto);
-		
 
 	}
 

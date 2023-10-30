@@ -27,7 +27,7 @@ public class Compra {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
+
 		return "Cliente :" + cliente + " com os items " + itens;
 	}
 
