@@ -8,5 +8,9 @@ public class CalculoTeste2 {
 
     calc = (a, b) -> a * b;
     System.out.println(" multiplicação " + calc.executar(4, 5));
+
+    System.out.println(calc.legal());
+
+    System.out.println(Calculo.muitoLegal());
   }
 }
